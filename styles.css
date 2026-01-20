@@ -1,23 +1,42 @@
-
-header{
+.hero-section{
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-
-
+    gap:10px;
+    width: 100vh;
+    height: auto;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .topnav a{
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 50px;
+}
+.topnav{
+    flex-grow: 8;
+    justify-self: flex-end;
 }
 
-
-h1{
-    font-size: 24px;
+.main-text{
+    font-size: 48px;
     color:#F9FAF8;
-    margin-left: 50px;
-
+    font-weight: 900;
+    background-color: #1f2937;
 }
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
